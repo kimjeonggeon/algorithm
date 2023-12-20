@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class TS_2 {
 //공통원소 구하기
 //투포인터알고리즘 - > 배열을 먼저 오름차순 정렬 해놓기. -> 그 후 비교시에 작은 수 포인터를 ++한다. 같으면 둘다 ++
+	
 	public ArrayList<Integer> solution(int n, int m,int[] a,int[] b){
 		ArrayList<Integer> answer = new ArrayList<>();
 		Arrays.sort(a);
