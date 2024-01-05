@@ -34,9 +34,6 @@ public class HashTree_4 {
 		Scanner kb = new Scanner(System.in);
 		String S = kb.next();
 		String T = kb.next();
-		
-		
-		
-		
+		System.out.print(A.solution(S,T));
 	}
 }
